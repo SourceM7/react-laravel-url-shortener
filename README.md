@@ -53,19 +53,25 @@ To get the project up and running locally, follow these steps:
     cp .env.example .env
     ```
 
-5. Generate an application key:
+5. Install the `predis/predis` package:
+
+    ```bash
+    composer require predis/predis:^2.0
+    ```
+
+6. Generate an application key:
 
     ```bash
     php artisan key:generate
     ```
 
-6. Run the migrations:
+7. Run the migrations:
 
     ```bash
     php artisan migrate
     ```
 
-7. Start the Laravel development server:
+8. Start the Laravel development server:
 
     ```bash
     php artisan serve
@@ -88,7 +94,7 @@ To get the project up and running locally, follow these steps:
 3. Start the React development server:
 
     ```bash
-    npm start
+    npm run dev
     ```
 
 ## Usage
