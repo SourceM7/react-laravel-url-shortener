@@ -82,7 +82,7 @@ To get the project up and running locally, follow these steps:
 1. Navigate to the frontend directory:
 
     ```bash
-    cd ../frontend
+    cd ../react
     ```
 
 2. Install frontend dependencies:
